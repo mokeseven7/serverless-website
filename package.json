@@ -1,6 +1,6 @@
 {
-  "name": "mmcgrath-website",
-  "version": "1.0.0",
+  "name": "@mmcgrath/website",
+  "version": "0.0.1",
   "description": "A serverless Website Component",
   "main": "./serverless.js",
   "scripts": {
