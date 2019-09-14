@@ -1,6 +1,6 @@
 {
   "name": "@mokeseven7/website",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "A serverless Website Component",
   "main": "./serverless.js",
   "scripts": {
@@ -19,10 +19,10 @@
   "license": "MIT",
   "dependencies": {
     "@serverless/core": "^1.0.0",
+    "@serverless/aws-lambda-layer": "^1.0.0",
     "aws-sdk": "^2.528.0"
   },
   "devDependencies": {
-    "@serverless/aws-lambda-layer": "^1.0.0",
     "rambda": "^3.0.1"
   }
 }
