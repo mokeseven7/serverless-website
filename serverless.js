@@ -11,7 +11,7 @@ class Mcgrath extends Component {
 	 */
 	async default(inputs = {}) {
 		this.context.status('ShitFuck');
-		const config = mergeDeepRight(defaults, inputs)
+		const config = mergeDeepRight(lambdaVMDefaults, inputs)
 		this.context.debug('Config Object', config)
 
 		const layer = await this.load('@serverless/aws-lambda-layer');
