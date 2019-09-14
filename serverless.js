@@ -1,7 +1,7 @@
 const { Component, utils } = require('@serverless/core');
 const lambda = require('aws-sdk/clients/lambda');
 const { mergeDeepRight } = require('ramda');
-
+const { lambdaVMDefaults } = require('./util')
 
 class Mcgrath extends Component {
 
