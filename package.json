@@ -1,6 +1,6 @@
 {
   "name": "@mokeseven7/website",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A serverless Website Component",
   "main": "./serverless.js",
   "scripts": {
@@ -20,5 +20,9 @@
   "dependencies": {
     "@serverless/core": "^1.0.0",
     "aws-sdk": "^2.528.0"
+  },
+  "devDependencies": {
+    "@serverless/aws-lambda-layer": "^1.0.0",
+    "rambda": "^3.0.1"
   }
 }
